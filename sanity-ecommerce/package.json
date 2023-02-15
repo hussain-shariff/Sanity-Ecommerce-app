@@ -1,18 +1,20 @@
 {
-  "name": "audio-store",
-  "version": "0.1.0",
+  "name": "sanity-crash-course",
   "private": true,
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy"
   },
+  "keywords": [
+    "sanity"
+  ],
   "dependencies": {
-    "@next/font": "13.1.1",
-    "eslint": "8.31.0",
-    "eslint-config-next": "13.1.1",
-    "next": "13.1.1",
     "@sanity/vision": "^3.0.0",
     "@stripe/stripe-js": "^1.46.0",
     "install": "^0.13.0",
@@ -38,4 +40,4 @@
     "bracketSpacing": false,
     "singleQuote": true
   }
-  }
+}
